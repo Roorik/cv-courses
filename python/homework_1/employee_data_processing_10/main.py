@@ -26,16 +26,17 @@ def filter_employees(data) -> list:
     return res
 
 if __name__ == '__main__':
+    # пытаемся открыть файл по заданной директории с входными данными
+    try:
+        with open(employees_dir, 'r') as input_file:
+            # выгружаем данные в переменную 
+            data = json.load(input_file)
+    except:
+        log.error(f'Файл {employees_dir} не найден')
+        raise
+    
     # выполняем программу
     try:
-        # пытаемся открыть файл по заданной директории с входными данными
-        try:
-            with open(employees_dir, 'r') as input_file:
-                # выгружаем данные в переменную 
-                data = json.load(input_file)
-        except:
-            log.error(f'Файл {employees_dir} не найден')
-
         # достаём из полученных данных лист работников, при отсутствии такого списка отдаём пустой лист
         list_employees = data.get('employees', [])
         # вызываем функцию фильтрации и передаём полученные данные
@@ -53,8 +54,7 @@ if __name__ == '__main__':
             salary = employee['salary']
             
             print(f'{name} - {position} - {salary}p.')
-            log.info(f'{name} - {position} - {salary}p.')
-            
+            log.info(f'{name} - {position} - {salary}p.')   
     # если в программе что-то пойдёт не так
     except Exception as e:
         log.error(f'Произошла ошибка: {e}')

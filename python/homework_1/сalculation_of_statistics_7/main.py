@@ -49,16 +49,18 @@ def calculate_sales(data):
 
 
 if __name__ == '__main__':
+    # пытаемся открыть файл по заданной директории с входными данными
+    try:
+        # выгружаем данные в переменную 
+        workbook = load_workbook(input_dir)
+        data = workbook.active
+        log.info(f'Файл {input_dir} успешно открыт')
+    except:
+        log.error(f'Файл {input_dir} не найден')
+        raise
+    
     # выполняем программу
     try:
-        # пытаемся открыть файл по заданной директории с входными данными
-        try:
-            # выгружаем данные в переменную 
-            workbook = load_workbook(input_dir)
-            data = workbook.active
-            log.info(f'Файл {input_dir} успешно открыт')
-        except:
-            log.error(f'Файл {input_dir} не найден')
         total_sum, avarage_sum = calculate_sales(data)
         
         # создаём новый excel файл
