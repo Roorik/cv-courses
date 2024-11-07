@@ -1,0 +1,5 @@
+INFO:__main__:Указано название города: Москва
+INFO:__main__:Данные от API геокодинга успешно получены
+INFO:__main__:Данные от API погоды успешно получены
+INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
+INFO:__main__:Полученные данные: {'time': ['2024-11-07', '2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13'], 'temperature_2m_max': [5.3, 5.2, 5.5, 5.3, -0.1, 1.7, 0.7], 'temperature_2m_min': [2.5, 1.4, 1.2, 0.2, -2.1, -2.4, -1.6]}
