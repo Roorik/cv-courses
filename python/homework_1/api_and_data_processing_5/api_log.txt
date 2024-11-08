@@ -1,5 +1,24 @@
-INFO:__main__:Указано название города: Москва
+INFO:__main__:Указано название города: Питер
 INFO:__main__:Данные от API геокодинга успешно получены
 INFO:__main__:Данные от API погоды успешно получены
 INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
-INFO:__main__:Полученные данные: {'time': ['2024-11-07', '2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13'], 'temperature_2m_max': [5.3, 5.2, 5.5, 5.3, -0.1, 1.7, 0.7], 'temperature_2m_min': [2.5, 1.4, 1.2, 0.2, -2.1, -2.4, -1.6]}
+INFO:__main__:Полученные данные: {'time': ['2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13', '2024-11-14'], 'temperature_2m_max': [8.1, 8.3, 3.6, 1.3, 4.0, 3.8, 3.0], 'temperature_2m_min': [5.1, 3.8, -2.3, -3.8, 0.3, 1.4, -1.5]}
+INFO:__main__:Указано название города: СПБ
+INFO:__main__:Данные от API геокодинга успешно получены
+INFO:__main__:Данные от API погоды успешно получены
+INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
+INFO:__main__:Полученные данные: {'time': ['2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13', '2024-11-14'], 'temperature_2m_max': [8.2, 8.6, 3.2, 1.3, 4.0, 3.8, 3.0], 'temperature_2m_min': [4.9, 4.1, -2.2, -3.7, 0.3, 1.4, -1.5]}
+INFO:__main__:Указано название города: 
+ERROR:__main__:Ошибка на этапе обращения к API погоды: cannot unpack non-iterable NoneType object
+INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
+INFO:__main__:Полученные данные: {}
+INFO:__main__:Указано название города: Свердловск
+INFO:__main__:Данные от API геокодинга успешно получены
+INFO:__main__:Данные от API погоды успешно получены
+INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
+INFO:__main__:Полученные данные: {'time': ['2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13', '2024-11-14'], 'temperature_2m_max': [-2.9, 1.1, 0.9, -4.5, -1.6, -3.7, -4.5], 'temperature_2m_min': [-8.2, -3.9, -8.0, -8.1, -5.4, -15.7, -16.4]}
+INFO:__main__:Указано название города: Свердловск-45
+INFO:__main__:Данные от API геокодинга успешно получены
+INFO:__main__:Данные от API погоды успешно получены
+INFO:__main__:Данные получены и записаны в файл /home/roorik/dev/study/git-courses/cv-courses/python/homework_1/api_and_data_processing_5/weather.json
+INFO:__main__:Полученные данные: {'time': ['2024-11-08', '2024-11-09', '2024-11-10', '2024-11-11', '2024-11-12', '2024-11-13', '2024-11-14'], 'temperature_2m_max': [-3.1, 2.0, 0.2, -3.6, -1.0, -7.4, -4.0], 'temperature_2m_min': [-9.3, -3.9, -8.7, -8.7, -7.7, -15.7, -15.5]}
