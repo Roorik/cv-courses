@@ -1,0 +1,3 @@
+INFO:root:Программа успешно выполнена
+INFO:root:Программа успешно выполнена
+INFO:root:Введена фраза: make cargonia great again
