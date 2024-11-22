@@ -31,12 +31,12 @@ def main() -> None:
         # вызываем функцию miki модуля cowsay, передаём в параметры сообщение юзера
         cowsay.miki(message)
         # запись логов об успешном выполнении программы
-        logging.info('Программа успешно выполнена')
-        logging.info(f'Введена фраза: {message}')
+        log.info('Программа успешно выполнена')
+        log.info(f'Введена фраза: {message}')
     # если происходит ошибка
     except Exception as e:
         # запись лога ошибки
-        logging.error(f'Произошла ошибка: {e}')
+        log.error(f'Произошла ошибка: {e}')
 
 
 if __name__ == '__main__':

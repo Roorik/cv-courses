@@ -39,14 +39,14 @@ def main():
         print(f'\nОбщая выручка: {total_revenue}') # вывод общей выручки
         
         # запись логов об успешном выполнении программы
-        logging.info('Данные успешно обработаны')
-        logging.info(f'Общая выручка: {total_revenue}')
+        log.info('Данные успешно обработаны')
+        log.info(f'Общая выручка: {total_revenue}')
     # если читаемый файл не найден
     except FileNotFoundError:
-        logging.error('Файл data.csv не найден') # запись лога ошибки
+        log.error('Файл data.csv не найден') # запись лога ошибки
     # если какая-л другая ошибка
     except Exception as e:
-        logging.error(f'Произошла ошибка: {e}') # запись лога ошибки
+        log.error(f'Произошла ошибка: {e}') # запись лога ошибки
 
 if __name__ == '__main__':
     # вызов мейн функции

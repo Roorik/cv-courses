@@ -52,12 +52,12 @@ def main():
         print(f'Заход солнца: {sunset_time}')
         
         # запись логов об успешном выполнении программы
-        logging.info('Программа успешно отработала')
-        logging.info(f'Вычисленное время восхода и захода: {sunrise_time, sunset_time}')
+        log.info('Программа успешно отработала')
+        log.info(f'Вычисленное время восхода и захода: {sunrise_time, sunset_time}')
     # если происходит ошибка
     except Exception as e:
         # запись лога ошибки
-        logging.error(f'Произошла ошибка: {e}')
+        log.error(f'Произошла ошибка: {e}')
 
 if __name__ == '__main__':
     # вызов мейн функции
