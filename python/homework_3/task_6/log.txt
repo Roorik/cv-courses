@@ -1,0 +1,13 @@
+ERROR:__main__:Произошла ошибка: 400 Client Error: Bad Request for url: https://dummyjson.com/todos/add
+INFO:__main__:Отправка запроса к API
+ERROR:__main__:Произошла ошибка: 400 Client Error: Bad Request for url: https://dummyjson.com/todos/add
+ERROR:__main__:Произошла ошибка: 400 Client Error: Bad Request for url: https://dummyjson.com/todos/add
+ERROR:__main__:Произошла ошибка: 400 Client Error: Bad Request for url: https://dummyjson.com/todos/add
+ERROR:__main__:Произошла ошибка: 400 Client Error: Bad Request for url: https://dummyjson.com/todos/add
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
+INFO:__main__:Отправка запроса к API
