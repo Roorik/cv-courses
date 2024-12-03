@@ -1,0 +1,2 @@
+ERROR:__main__:Произошла ошибка: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 3 and the array at index 1 has size 2
+INFO:__main__:Массивы объединены

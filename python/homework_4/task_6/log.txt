@@ -1,0 +1,2 @@
+INFO:__main__:Массивы объединены
+ERROR:__main__:Произошла ошибка: Singular matrix
