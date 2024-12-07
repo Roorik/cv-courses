@@ -1,0 +1,4 @@
+ERROR:__main__:Произошла ошибка: The 'out' kwarg is necessary. Use numpy.strings.multiply without it.
+ERROR:__main__:Произошла ошибка: The 'out' kwarg is necessary. Use numpy.strings.multiply without it.
+ERROR:__main__:Произошла ошибка: The 'out' kwarg is necessary. Use numpy.strings.multiply without it.
+ERROR:__main__:Произошла ошибка: string indices must be integers
