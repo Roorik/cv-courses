@@ -1,0 +1,27 @@
+ERROR:__main__:Произошла ошибка: 'Units Sold'
+ERROR:__main__:Произошла ошибка: Invalid file path or buffer object type: <class 'NoneType'>
+ERROR:__main__:Произошла ошибка: Invalid file path or buffer object type: <class 'NoneType'>
+ERROR:__main__:Произошла ошибка: Invalid file path or buffer object type: <class 'NoneType'>
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Произошла ошибка: Invalid file path or buffer object type: <class 'NoneType'>
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: can only concatenate str (not "int") to str
+ERROR:__main__:Файл: new_data.csv не найден
+ERROR:__main__:Произошла ошибка: 'Laptop'
+ERROR:__main__:Файл: new_data.csv не найден
