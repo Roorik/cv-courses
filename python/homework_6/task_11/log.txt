@@ -1,0 +1,5 @@
+ERROR:__main__:Произошла ошибка: 'numpy.ndarray' object has no attribute 'fill_between'
+ERROR:__main__:Произошла ошибка: 'numpy.ndarray' object has no attribute 'fill_between'
+ERROR:__main__:Произошла ошибка: 'Axes' object is not subscriptable
+ERROR:__main__:Произошла ошибка: 'Axes' object is not subscriptable
+ERROR:__main__:Произошла ошибка: 'numpy.ndarray' object has no attribute 'plot'
